@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace AnaliseCreditoItau.Binders
 {
-    public class DecimalModelBinders
+    public class DecimalModelBinders: IModelBinder
     {
         public object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
         {

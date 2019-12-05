@@ -7,7 +7,8 @@ namespace AnaliseCreditoItau.Models
 {
     public enum EstadoCivil
     {
-        //Esse valores serão fixos e não serão gravados no banco de dados, por isso usei o enum
+        //Esse valores serão fixos e não serão gravados no banco, por isso q usei o enum
+        //As informações abaixo serão exibidas de acordo com o valor que foi definido no name.
         [Display(Name = "Solteiro")]
         Solteiro,
         [Display(Name = "Casado")]
